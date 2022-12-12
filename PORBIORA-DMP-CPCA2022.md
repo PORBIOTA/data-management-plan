@@ -138,7 +138,7 @@ expected format and storage required are described in the table bellow.
 | 1. Species occurrences | Darwin Core standard (csv files) |  2.5 | 15 |
 | 2. Specimen images | image (tiff, jpeg) | 1200 | 9000 |
 | 3. Spectral data | csv, jpeg |  1 | 4 |
-| 4. Carbon fluxes | csv, jpeg | 5000 | 5000 |
+| 4. Carbon fluxes | csv, jpeg | 2500 | 5000 |
 
 ### 1.3. How much data storage will your project require in total?
 
