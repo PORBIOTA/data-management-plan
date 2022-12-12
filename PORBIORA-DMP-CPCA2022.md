@@ -150,3 +150,7 @@ More than 1000 GB.
 
 
 
+
+
+
+### 2.2. Indicate which metadata will be provided to help others identify and discover the data.
