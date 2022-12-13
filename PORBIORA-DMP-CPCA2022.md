@@ -43,9 +43,7 @@ The types of data covered in this DMP are:
 3. spectral vegetation data and images (photographs)
 4. carbon fluxes
 
-*1. Biodiversity species occurrence data published through GBIF*
-
-Data 
+*1. Biodiversity species occurrence data published through GBIF* 
 
 **Data Publisher Agreement terms** 
 
