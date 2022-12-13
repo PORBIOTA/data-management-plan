@@ -28,6 +28,10 @@ The version history of the document is the following:
 | Version | Date       | Change description |
 |---------|------------|--------------------|
 | 1.0     | 13-12-2022 | creation of the DMP |
+
+## Document repository
+
+This document is deposited and updated through https://github.com/PORBIOTA/data-management-plan/blob/main/PORBIORA-DMP-CPCA2022.md.
  
 ## 1. What data will be collected or produced, and what existing data will be re-used?
 
