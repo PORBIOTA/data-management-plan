@@ -25,9 +25,9 @@ The current version is Version 1.0.
 
 The version history of the document is the following:
 
-| Version | Date       | Change description |
-|---------|------------|--------------------|
-| 1.0     | 13-12-2022 | creation of the DMP |
+| Version | Date       | Authors     | Change description |
+|---------|------------|-------------|--------------------|
+| 1.0     | 13-12-2022 | Rui Figueira | creation of the DMP |
 
 ## Document repository
 
