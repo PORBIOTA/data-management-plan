@@ -502,3 +502,114 @@ No tools are provided to access these data, which can be downloaded as a csv fil
 4. Carbon fluxes data
 
 No tools are provided to access these data, which can be downloaded as a csv file.
+
+## 6. Data management responsibilities and resources
+
+### 6.1. Who (for example role, position, and institution) will be responsible for data management?
+
+1. Species occurrences data
+
+The species occurrence data is managed through the following services:
+
+1.1. GBIF.PT Integrated Publishing Toolkit (IPT)
+
+- URL: https://ipt.gbif.pt
+- Description: Platform for data and metadata publication through GBIF
+- Access to the service: GBIF Publisher institutions have user accounts to publish data.
+- Manager: Portuguese Node of GBIF
+- Institution: Instituto Superior de Agronomia, host institution of the Portuguese 
+Node of GBIF, by appointment of FCT.
+- Terms of use: A Service Level Agreement (SLA) is established between the Portuguese
+Node of GBIF and the publisher institution
+- Cost of service: free
+- Roles: user management, server management, data backup, user training
+
+1.2. Biodiversity Data Portal of Portugal
+
+- URL: https://dados.gbif.pt
+- Description: Data portal for access, visualization, analysis and download of
+biodiversity data.
+- Manager: Portuguese Node of GBIF (GBIF.PT)
+- Institution: Instituto Superior de Agronomia, host institution of the Portuguese 
+Node of GBIF, by appointment of FCT.
+- Infrastructure provider: INCD RI, scientific cloud STRATUS
+- Agreements: A Service Level Agreement (SLA) is established between INCD and Instituto
+Superior de Agronomia
+- Roles: 
+    - GBIF.PT: platform installation, data management, user management 
+    - INCD: infrastructure management, Openstack cloud management, hardware management
+
+2. Specimen image data
+
+2.1. PORBIOTA Archive
+
+- URL: https://arquivo.porbiota.pt
+- Description: Long term archiving and preservation of biodiversity data
+- Manager: Portuguese Node of GBIF (GBIF.PT)
+- Institution: Instituto Superior de Agronomia, host institution of the Portuguese 
+Node of GBIF, by appointment of FCT.
+- Infrastructure provider: INCD RI, scientific cloud STRATUS
+- Agreements: A Service Level Agreement (SLA) is established between INCD and Instituto
+Superior de Agronomia
+- Roles: 
+    - GBIF.PT: data management, user management
+    - INCD: Nextcloud platform installation, infrastructure management, Openstack cloud management, hardware management
+
+3. Spectral data and Carbon fluxes data
+
+3.1. PORBIOTA Archive
+
+- URL: https://arquivo.porbiota.pt
+- Description: Long term archiving and preservation of spectral data
+- Manager: Portuguese Node of GBIF (GBIF.PT)
+- Institution: Instituto Superior de Agronomia, host institution of the Portuguese 
+Node of GBIF, by appointment of FCT.
+- Infrastructure provider: INCD RI, scientific cloud STRATUS
+- Agreements: A Service Level Agreement (SLA) is established between INCD and Instituto
+Superior de Agronomia
+- Roles: 
+    - PORBIOTA ICOS thematic researchers at ISA: data management
+    - GBIF.PT: user management
+    - INCD: Nextcloud platform installation, infrastructure management, Openstack cloud management, hardware management
+
+### 6.2. What resources (for example financial and time) will be dedicated to data management and ensuring that data will be FAIR (Findable, Accessible, Interoperable, Re-usable)?
+
+Management of services hosted by the INCD Cloud service STRATUS
+
+Through the participation in European projects EGI-Engage (2015-2017) and EGI-ACE (2021-2023), 
+as a user community, PORBIOTA has obtained resources to implement and manage services
+supported by the scientific cloud services provided by INCD RI. This includes the first
+installation of the Biodiversity Data Portal of Portugal in 2016, and an update and 
+addition of modules for species, lists and spatial data in 2019.
+
+The relationship between INCD and PORBIOTA has developed since the early stages of
+the implementation of the National Roadmap for Research Infrastructures (RNIE), through
+the following initiatives:
+- establishment of a PORBIOTA project in the pilot cloud service NIMBUS in 2014
+- establishment of a SLA between ICND and ISA, which covers the installation of three
+servers purchased through PORBIOTA in the installations of the cloud, at LNEC. This
+allows sharing resources and expand services between INCD and PORBIOTA.
+- participation in IBERGRID and EGI initiatives and conferences.
+
+THe day to day management of data in the national portal is done by the Portuguese
+Node of GBIF, in annually updates. This is far for ideal, due to the lack of human 
+resources dedicated to the Portuguese Node of GBIF. The situation is expected to improve
+with the next round of funding of the RIs of the RNIE. 
+
+Promote FAIRness of GBIF data
+
+In the scope of EGI-ACE, a FAIR Data Maturity Assessment of the EGI-ACE Data Space 
+providers was performed for GBIF Data Spcace. The exercise was based on the work of the 
+RDA FAIR Data Maturity Model Working Group https://doi.org/10.15497/rda00050.´
+
+In the exercise, GBIF was ratted to be:
+
+- Findable: compliant, 100% progress
+- Accessible: compliant, 100% progress
+- Interoperable: not compliant, 86% progress
+- Reusable: compliant, 100% progress
+
+See EGI-ACE D2.4 Technical, Policy and Service Management Integration Report (https://doi.org/10.5281/zenodo.6602260) for details.
+
+PORBIOTA, through the Portuguese Node of GBIF, and together with GBIF Spain provided 
+the information for the assessment of the GBIF Data Space.
