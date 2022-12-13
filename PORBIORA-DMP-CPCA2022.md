@@ -4,7 +4,7 @@
 
 This DMP was prepared in the scope of the call FCT-CPCA-2022 (proposal 2022.15827.CPCA)
 and includes the relevant parts of the full DMP of PORBIOTA related to the use of
-scientific cloud computing services fo INCD STRATUS by PORBIOTA.
+scientific cloud computing services for INCD STRATUS by PORBIOTA.
 
 It includes the following components of PORBIOTA:
 - biodiversity data publication and use through GBIF
@@ -31,7 +31,7 @@ The version history of the document is the following:
 
 ## Document repository
 
-This document is deposited and updated through https://github.com/PORBIOTA/data-management-plan/blob/main/PORBIORA-DMP-CPCA2022.md.
+This document is deposited and updated through [https://github.com/PORBIOTA/data-management-plan/blob/main/PORBIORA-DMP-CPCA2022.md](https://github.com/PORBIOTA/data-management-plan/blob/main/PORBIORA-DMP-CPCA2022.md).
  
 ## 1. What data will be collected or produced, and what existing data will be re-used?
 
@@ -121,7 +121,7 @@ The current storage requirements are 7 TB.
 
 Contains spectral readings of vegetation from Mediterranean woodlands, for long
 term preservation. It includes photograph images of the plants sampled. This 
-archive is not used for data access. Data is published through Zenodo (https://doi.org/10.5281/zenodo.5176824). The data license used is CC-BY-NC 4.0.
+archive is not used for data access. Data is published through Zenodo ([https://doi.org/10.5281/zenodo.5176824](https://doi.org/10.5281/zenodo.5176824)). The data license used is CC-BY-NC 4.0.
 
 The current storage requirements are 3 GB.
 
@@ -196,7 +196,7 @@ detailed above.
 
 3. Spectral data
 Spectral data publication in the scope of PORBIOTA is still in first stages. The 
-publication. The published dataset (https://doi.org/10.5281/zenodo.5176824) included
+publication. The published dataset ([https://doi.org/10.5281/zenodo.5176824](https://doi.org/10.5281/zenodo.5176824)) included
 the following metadata descriptors:
 - Site description
 - Reflectance measurements
@@ -274,17 +274,17 @@ processing by GBIF is feed by the GBIF.PT IPT installation as a source, as expla
 [in the following page](https://www.gbif.org/article/1H4ZTNWs9mAwoWWwU4uyIk/gbif-infrastructure-overview).
 
 1.3. The third level of storage and backup of data is at the Biodiversity Data Portal
-of Portugal (https://dados.gbif.pt). The platform managed by GBIF Portugal in the 
+of Portugal ([https://dados.gbif.pt](https://dados.gbif.pt)). The platform managed by GBIF Portugal in the 
 scope of PORBIOTA published at the national level all datasets published by portuguese GBIF publishers, and datasets published for Portugal by foreign institutions.
 
 Datasets are integrated in the national data portal after being published by GBIF.org.
 This ensures that the same versions of data is available either at the global portal 
-gbif.org, or at the national portal dados.gbif.pt. The portal https://dados.gbif.pt 
+gbif.org, or at the national portal dados.gbif.pt. The portal [https://dados.gbif.pt](https://dados.gbif.pt) 
 uses the INCD scientific cloud.
 
 2. Specimen image data
 Image data is stored and backed up for long term preservation using the PORBIOTA 
-service https://arquivo.porbiota.pt. This service in implemented on top of the 
+service [https://arquivo.porbiota.pt](https://arquivo.porbiota.pt). This service in implemented on top of the 
 scientific cloud provided by INCD, using a Nextcloud platform. The recommended 
 term of use provided to the institutional users (PORBIOTA partners) recommends 
 that the use of the service should apply a policy of "store and forget". This means 
@@ -292,11 +292,11 @@ that data should be not accessed and used in a regularly bases, but only in the
 case of event recovery.
 
 3. Spectral data
-These data also uses the service https://arquivo.porbiota.pt, as a storage and backup
+These data also uses the service [https://arquivo.porbiota.pt](https://arquivo.porbiota.pt), as a storage and backup
 service, in a "store and forget" policy, and as a last use resource for data recovery.
 
 4. Carbon fluxes data 
-These data also uses the service https://arquivo.porbiota.pt, as a storage and backup
+These data also uses the service [https://arquivo.porbiota.pt](https://arquivo.porbiota.pt), as a storage and backup
 service, in a "store and forget" policy, and as a last use resource for data recovery.
 
 
@@ -324,10 +324,10 @@ and PORBIOTA:
 
 > The purpose of the processing is to assist researchers in evaluating the fitness-for-use of data accessed through GBIF as well as to acknowledge the named individuals for their recording, collection or expertise. Processing is necessary to pursue our and the public's interests to share the data for research purposes (article 6(1)(f) of the GDPR).
 
-Concerning the use of Biodiversity Data Portal of Portugal (https://dados.gbif.pt),
+Concerning the use of Biodiversity Data Portal of Portugal ([https://dados.gbif.pt](https://dados.gbif.pt)),
 a user registration is required to allow the deliver of services as data download.
 The provided information is name and email of user, and the information is managed 
-in accordance to the GBIF.PT policy available at https://www.gbif.pt/node/116.
+in accordance to the GBIF.PT policy available at [https://www.gbif.pt/node/116](https://www.gbif.pt/node/116).
 
 2. Specimen image data
 
@@ -407,10 +407,9 @@ which conditions) are relevant, so except for duplicated data, no discarding
 scenarios are anticipated for data. 
 
 Furthermore, the volume of data is relatively low (data is in text format), which 
-makes feasible to store and preserve all data. For example, storage of 16 million 
-records in the Biodiversity Data Portal of Portugal (https://dados.gbif.pt) is about 
-
-XXXXX
+makes feasible to store and preserve all data. For example, the storage of 256 datasets 
+summing up to 16 million records, in the Biodiversity Data Portal of Portugal 
+([https://dados.gbif.pt](https://dados.gbif.pt)), is 60 GB. 
 
 Therefore, all records will be preserved in the long-term.
 
@@ -483,8 +482,8 @@ whole data available through the platform (2.2 thousand million) can be download
 The same applies to the national portal dados.gbif.pt.
 
 Data can also be accessed using the API web service at both platforms. This can be done
-directly (see https://www.gbif.org/developer/summary and https://registos-ws.gbif.pt/ for 
-documentation).
+directly (see [https://www.gbif.org/developer/summary](https://www.gbif.org/developer/summary) 
+and [https://registos-ws.gbif.pt/](https://registos-ws.gbif.pt/) for documentation).
 
 It is also possible to access to the GBIF.org API data using the packages rGBIF for R and 
 pygbif module for python. No tool exists for the national data portal.
@@ -517,7 +516,7 @@ The species occurrence data is managed through the following services:
 
 1.1. GBIF.PT Integrated Publishing Toolkit (IPT)
 
-- URL: https://ipt.gbif.pt
+- URL: [https://ipt.gbif.pt](https://ipt.gbif.pt)
 - Description: Platform for data and metadata publication through GBIF
 - Access to the service: GBIF Publisher institutions have user accounts to publish data.
 - Manager: Portuguese Node of GBIF
@@ -530,7 +529,7 @@ Node of GBIF and the publisher institution
 
 1.2. Biodiversity Data Portal of Portugal
 
-- URL: https://dados.gbif.pt
+- URL: [https://dados.gbif.pt](https://dados.gbif.pt)
 - Description: Data portal for access, visualization, analysis and download of
 biodiversity data.
 - Manager: Portuguese Node of GBIF (GBIF.PT)
@@ -547,7 +546,7 @@ Superior de Agronomia
 
 2.1. PORBIOTA Archive
 
-- URL: https://arquivo.porbiota.pt
+- URL: [https://arquivo.porbiota.pt](https://arquivo.porbiota.pt)
 - Description: Long term archiving and preservation of biodiversity data
 - Manager: Portuguese Node of GBIF (GBIF.PT)
 - Institution: Instituto Superior de Agronomia, host institution of the Portuguese 
@@ -563,7 +562,7 @@ Superior de Agronomia
 
 3.1. PORBIOTA Archive
 
-- URL: https://arquivo.porbiota.pt
+- URL: [https://arquivo.porbiota.pt](https://arquivo.porbiota.pt)
 - Description: Long term archiving and preservation of spectral data
 - Manager: Portuguese Node of GBIF (GBIF.PT)
 - Institution: Instituto Superior de Agronomia, host institution of the Portuguese 
@@ -604,7 +603,7 @@ Promote FAIRness of GBIF data
 
 In the scope of EGI-ACE, a FAIR Data Maturity Assessment of the EGI-ACE Data Space 
 providers was performed for GBIF Data Spcace. The exercise was based on the work of the 
-RDA FAIR Data Maturity Model Working Group https://doi.org/10.15497/rda00050.´
+RDA FAIR Data Maturity Model Working Group [https://doi.org/10.15497/rda00050](https://doi.org/10.15497/rda00050).´
 
 In the exercise, GBIF was ratted to be:
 
@@ -613,7 +612,7 @@ In the exercise, GBIF was ratted to be:
 - Interoperable: not compliant, 86% progress
 - Reusable: compliant, 100% progress
 
-See EGI-ACE D2.4 Technical, Policy and Service Management Integration Report (https://doi.org/10.5281/zenodo.6602260) for details.
+See EGI-ACE D2.4 Technical, Policy and Service Management Integration Report ([https://doi.org/10.5281/zenodo.6602260](https://doi.org/10.5281/zenodo.6602260)) for details.
 
 PORBIOTA, through the Portuguese Node of GBIF, and together with GBIF Spain provided 
 the information for the assessment of the GBIF Data Space.
